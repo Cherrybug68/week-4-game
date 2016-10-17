@@ -65,7 +65,7 @@ function counterPower () {
 }
 
 
-
+// Moving the character boxes into position for battle
 function moveCharacters () {
 
 	function yourCharacterMove(selectedElement) {
