@@ -9,6 +9,7 @@ var randomHPNumb = [];
 createHP();
 attackPower();
 counterPower();
+moveCharacters();
 
 
 // Create Health Points for each Character
@@ -65,14 +66,23 @@ function counterPower () {
 
 
 
+function moveCharacters () {
 
+	function yourCharacterMove(selectedElement) {
+		$(".yourCharacterSpot").append(selectedElement);
+	}
 
-function yourCharacterMove(selectedElement) {
-	$(".yourCharacterSpot").append(selectedElement);
+	$(".character").on('click', function() {
+		var selectedElement = $(this);
+		yourCharacterMove(selectedElement);
+	});
+
+	function defenderMove(selectedElement) {
+		$(".defenderSpot").append(selectedElement);
+	}
+
+	(".character").on('click', function() {
+		var selectedElement = $(this);
+		defenderMove(selectedElement);
+	});
 }
-
-$(".character").on('click', function() {
-	var selectedElement = $(this);
-	yourCharacterMove(selectedElement);
-});
-
