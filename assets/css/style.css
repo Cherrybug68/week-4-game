@@ -1,0 +1,112 @@
+/*Fonts to use*/
+/*font-family: 'Bungee Inline', cursive;*/
+/*font-family: 'Bitter', serif;*/
+
+/*Background Image*/
+body {
+	background-image: url("../images/DefaultBackground_2.jpg");
+	background-size: 100%;
+	font-family: 'Bitter', serif;
+}
+
+.jumbotron {
+	float: left;
+	margin: 20px 0px 0px -135px;
+	width: 45%;
+	border: double;
+	border-color: white;
+	border-width: 10pt;
+}
+.container h1 {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 25pt;
+	text-align: center;
+	margin-top: -30px;
+}
+
+.col-lg-4 {
+	color: white;
+	font-size: 15pt;
+	text-align: center;
+	margin: 0px 0px 0px 40px;
+}
+
+.col-md-2 h2 {
+	color: white;
+	font-size: 45pt;
+	text-align: center;
+	margin: -10px 0px -40px 30px;
+}
+
+.character {
+	margin: 20px 0px 0px 0px;
+}
+
+.panel-primary {
+	border-color: black;
+	border-width: 2pt;
+}
+
+.panel-primary>.panel-heading {
+	background-color: black;
+}
+
+.panel-title {
+	font-size: 20pt;
+	text-align: center;
+	color: white;
+}
+
+.panel-body {
+	background-color: white;
+}
+
+.panel-body img {
+	width: 125px;
+}
+
+#knightsHP {
+	font-size: 20pt;
+	color: black;
+	text-align: center;
+	margin: 0px 0px -10px 0px;
+}
+
+#bullsHP {
+	font-size: 20pt;
+	color: black;
+	text-align: center;
+	margin: 0px 0px -10px 0px;
+}
+
+#gatorsHP {
+	font-size: 20pt;
+	color: black;
+	text-align: center;
+	margin: 0px 0px -10px 0px;
+}
+
+#nolesHP {
+	font-size: 20pt;
+	color: black;
+	text-align: center;
+	margin: 0px 0px -10px 0px;
+}
+
+.battlePosition {
+	float: none;
+	margin: 30px 0px 0px 230px;
+}
+
+.btn-danger {
+	margin: 120px 0px 0px 100px;
+}
+
+.characterText {
+	font-size: 20pt;
+	font-weight: bolder;
+	color: black;
+}
+
+
+
